@@ -1,1 +1,46 @@
 /* include your css here */
+
+        header {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            width:70%;
+            margin:0 auto;
+            margin-left:23%;
+            border-radius:30px;
+            
+        }
+        nav {
+            background-color:black;
+            color:#fff;
+            width:16%;
+            float:left;
+            height:400px;
+            border-radius:0 30px 30px 0;
+        }
+        nav h3{
+            text-align:center;
+        }
+        nav ul, nav a{
+            text-decoration:none;
+            color:#fff;
+            list-style-type:none;
+        }
+        nav a:hover{
+            color:black;
+            background:#fff;
+        }
+        section{
+            float:right;
+            width:76%;
+            margin-right:4%;
+            text-align:justify;
+            height:500px;
+            overflow:scroll;
+            
+        }
+        section h2{
+            text-align:center;
+            list-style-type:none;
+        }
+    
