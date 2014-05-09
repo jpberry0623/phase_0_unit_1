@@ -19,7 +19,7 @@ var Client = ("Adam Sandler", 47, "thats your home, are you too good for your ho
 // 3. "TIME IS MONEY!"
 var Client = function(name, age, quote) {"name is" + name + ", " + "age is" + age + ", " + "quote is" + quote};
 
-
+var Client = function(name, age, quote) {this.name=name, this.age=age, this.quote=quote};
 //YOUR CODE HERE!
 
 var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
