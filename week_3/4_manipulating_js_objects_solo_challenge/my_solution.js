@@ -46,6 +46,30 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  
+}
+
+var adam ={};
+adam.name = "Adam";
+terah.spouse = adam;
+adam.spouse = terah;
+terah.children = {};
+terah.children.carson = {
+  name: "Carson",
+};
+terah.children.carter = {
+  name: "Carter",
+};
+terah.children.colton = {
+  name: "Colton",
+};
+adam.children = terah.children
 
 
 
@@ -56,10 +80,15 @@ var terah = {
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
-// 
-// 
-// 
-// 
+// This solo challenge really helped me get a better understanding of onject literals and adding new 
+// properties to exisiting objects.  I struggled with the idea of not being able to just add adam as an property
+// value of terah.  This challenge also made me explore the idea of inheritiance--if I wanted adam to inherit all of 
+//  terahs properties, which led me to find more out about th prototype method for adding functions to constructors. 
+//  As I was writing the code I felt that there was an DRYer way of writing the code, but after several attempts I 
+//  could no find the correct syntax to make all of the properties remain within the object literal format rather 
+// l;isting the new properties outside of the original variable object.  TYhe challenge really made me think about some
+// new topics like inheritance, but I must search for a firmer understanding of how objects can interact with one another
+// within other variables and functions.
 // 
 
 
